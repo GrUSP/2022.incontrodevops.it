@@ -21,7 +21,7 @@ conference:
   md_address: "Via del Pilastro 2"
   organizer_url: "http://grusp.org/"
   # contact email
-  contact_email: "incontrodevops@grusp.org"
+  contact_email: "devops@grusp.org"
   # these are for the hero section
   title_pre: ""
   title: "Incontro DevOps Italia 2022"
@@ -50,7 +50,7 @@ conference:
   cfp_open: true
   cfp_readmore_label: "Maggiori dettagli sulla CFP"
   cfp_open_label: "Proponi un talk entro il"
-  cfp_open_title: "Call For Papers aperta!"
+  cfp_open_title: "La Call For Paper è aperta!"
   cfp_deadline: 2022-01-06T23:59+01:00
   cfp_register_label: "Candidati come speaker"
   cfp_register_aria_label: "Invia ora la tua proposta"
@@ -59,7 +59,7 @@ conference:
   geninfo_title: "Che cos'è?"
   geninfo_description: "IDI Incontro DevOps Italia 2022 è la 10° edizione della conferenza italiana dedicata alle tematiche DevOps.
     </br> <br /> Parleremo di DevOps, Continuous Delivery, Cloud, Microservices, Automation, Testing, Big Data, Containers, Data Center Operating Systems, Software Operability.
-    </br> <br /> La conferenza si svolge in modalità ibrida: di persona e online."
+    </br> <br /> La conferenza si svolge in modalità <b>ibrida</b>: in presenza e online."
   geninfo_about_label: "About"
   geninfo_coc_label: "Codice di condotta"
   geninfo_scholarships_label: "Scholarships"
@@ -151,7 +151,7 @@ conference:
   sponsor_title_home: "Grazie al supporto di"
   # this is for the Community partners section in home page
   community_partners: true
-  community_partners_title: "Community Partners"
+  community_partners_title: "Community Partner"
   # community_partners_text: ""
   # this is for the Social links block
   social_follow: "Seguici su"
@@ -168,12 +168,9 @@ conference:
   base_url: "incontrodevops.it/"
   past_editions_pre: "Passate edizioni della conferenza:"
   past_editions:
-    2015: "2015"
-    2016: "2016"
-    2017: "2017"
-    2018: "2018"
     2019: "2019"
     2020: "2020"
+    2021: "2021"
   past_editions_videos_pre: "Tutti i video delle passate edizioni sono disponibili su "
   past_editions_videos_vimeo_label: "Vimeo"
   past_editions_videos_mid: " e "
