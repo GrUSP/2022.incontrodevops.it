@@ -47,7 +47,7 @@ conference:
   update_link_url: "https://google.com/"
   update_link_label: "link to google, just for the demo"
   # "call for papers" component. set the first parameter to true to make it appear in home page, false means hidden
-  cfp_open: true
+  cfp_open: false
   cfp_readmore_label: "Maggiori dettagli sulla CFP"
   cfp_open_label: "Proponi un talk entro il"
   cfp_open_title: "La Call For Paper è aperta!"
@@ -134,7 +134,7 @@ conference:
   # vimeo_base_url: "https://vimeo.com/channels/"
   # vimeo_url_suffix: "/embed"
   #   (embed YouTube playlist: prendere l'ID della lista dall'URL, la parte dopo '&list=', e metterla qui sotto)
-  youtube_playlist_id: "PLWK9j6ps_unlyAyd0-99ZgsoFIhYEyMvn"
+  youtube_playlist_id: "PLWK9j6ps_unkCSDpnd4ziFZFNj2E9AzOX"
   #   (embed Vimeo showcase: prendere l'ID dello showcase e metterla qui sotto)
   # vimeo_showcase_id: "italianincontrodevops"
   # Location section in home page. set the first parameter to true to make it appear in home page, false means hidden
