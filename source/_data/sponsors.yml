@@ -4,28 +4,40 @@ sponsors_block_title: "Grazie al supporto di"
 #    name: ""
 #    logo_filename: ""
 #    site_url: ""
-# diamond:
-#  sponsor1:
-#    name: ""
-#    logo_filename: ""
-#    site_url: ""
+diamond:
+  sponsor1:
+    name: "SIGHUP"
+    logo_filename: "sighup.png"
+    site_url: "https://sighup.io/"
 platinum:
   sponsor1:
     name: "biodec"
     logo_filename: "biodec.png"
-    site_url: "https://www.biodec.it/?utm_source=idi2021"
+    site_url: "http://www.biodec.it/?utm_source=idi2022"
+  sponsor2:
+    name: "Blue Reply"
+    logo_filename: "bluereply.png"
+    site_url: "https://www.reply.com/blue-reply/"
+  sponsor3:
+    name: "vistatech"
+    logo_filename: "vistatechnology.png"
+    site_url: "https://www.vistatech.it/"
 gold:
   sponsor1:
     name: "workwave"
     logo_filename: "workwave.svg"
     site_url: "https://www.workwave.com/"
-#silver:
-#  sponsor1:
-#    name: ""
-#    logo_filename: ""
-#    site_url: ""
+silver:
+  sponsor1:
+    name: "madisoft"
+    logo_filename: "madisoft.svg"
+    site_url: "https://labs.madisoft.it/"
 bronze:
   sponsor1:
+    name: "AWS"
+    logo_filename: "aws.svg"
+    site_url: "https://aws.amazon.com/it/"
+  sponsor2:
     name: "stickermule"
     logo_filename: "stickermule.svg"
     site_url: "https://mule.to/p2gc"

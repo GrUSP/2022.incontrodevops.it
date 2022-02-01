@@ -1,8 +1,14 @@
 intro:
-  slogan_1: "La tua attività è connessa al mondo DevOps"
+  slogan_1: "La tua attività è connessa al mondo DevOps?"
   slogan_2: "Vuoi farti conoscere dal pubblico professionale della conferenza?"
-  content_1: "Sponsorizzare l'evento è un ottimo modo per farti conoscere nel settore."
-  content_2: "Le opportunità che trovi elencate in questa pagina possono essere personalizzate in base alle specifiche esigenze"
+  content_1: "Come sponsor potrai:
+  <br/>
+  • migliorare la tua <b>brand awareness</b>, facendoti conoscere al tuo pubblico target;
+  <br/>
+  • fare <b>recruiting</b> e trovare talenti nella community;
+  <br/>
+  • posizionarti tra i <b>top player</b> del settore."
+  content_2: "Le opportunità che trovi elencate in questa pagina possono essere personalizzate in base alle esigenze"
   content_3: ""
 block_2:
   title: "Opzioni di sponsorship"
@@ -10,7 +16,7 @@ block_2:
   subtitle_1: "Hai idee o suggerimenti?"
   content_1: "Contattaci per definire insieme le opzioni più adatta alle tue esigenze o per condividere una brillante idea di sponsorizzazione."
   subtitle_2: "Pacchetti di sponsorizzazione"
-  content_2: "Puoi scegliere tra uno dei seguenti pacchetti di sponsorizzazione. Scrivici se hai bisogno di ulteriori informazioni."
+  content_2: "Puoi scegliere tra uno dei seguenti pacchetti di sponsorizzazione. Scrivici se hai bisogno di maggiori informazioni."
 # level description blocks:
 #   If the numbered description is not there, the relevant section will not be displayed
 #   Every block has its own background color based on the block number
@@ -25,7 +31,7 @@ levels:
   level_1:
     name: Main
     amount: 10000
-    vat_label: "(+ VAT 22%)"
+    vat_label: "(+ IVA 22%)"
     available_slots: 1
     description_1:
       - "Talk (massimo 30 minuti, non sono accettati talk commerciali)"
@@ -50,7 +56,7 @@ levels:
   level_2:
     name: Diamond
     amount: 5000
-    vat_label: "(+ VAT 22%)"
+    vat_label: "(+ IVA 22%)"
     available_slots: 2
     description_1:
       - "Accesso alla lista dei partecipanti (che hanno dato consenso a condivisione dati)"
@@ -74,7 +80,7 @@ levels:
   level_3:
     name: Platinum
     amount: 3000
-    vat_label: "(+ VAT 22%)"
+    vat_label: "(+ IVA 22%)"
     available_slots: 4
     description_2:
       - "Stand fisico - piccolo"
@@ -96,7 +102,7 @@ levels:
   level_4:
     name: Gold
     amount: 1500
-    vat_label: "(+ VAT 22%)"
+    vat_label: "(+ IVA 22%)"
     available_slots: 8
     description_3:
       - "Vostro rollup nella sala della conferenza fisica"
@@ -115,7 +121,7 @@ levels:
   level_5:
     name: Silver
     amount: 750
-    vat_label: "(+ VAT 22%)"
+    vat_label: "(+ IVA 22%)"
     available_slots: 16
     description_3:
       - "Logo nei rollup della conferenza"
@@ -132,7 +138,7 @@ levels:
   level_6:
     name: Bronze
     amount: 500
-    vat_label: "(+ VAT 22%)"
+    vat_label: "(+ IVA 22%)"
     available_slots: 32
     description_5:
       - "Logo nelle comunicazioni pre-evento"
@@ -143,7 +149,7 @@ levels:
   level_7:
     name: Diversity
     amount: 500
-    vat_label: "(+ VAT 22%)"
+    vat_label: "(+ IVA 22%)"
     available_slots: 32
     description_5:
       - "Logo nelle comunicazioni pre-evento"
