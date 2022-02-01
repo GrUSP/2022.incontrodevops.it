@@ -7,9 +7,9 @@
 conference:
   # Online-only conferences
   is_online_only: false
-  online_location: "online"
-  online_location_title: "Internet"
-  online_location_info: "La conferenza si svolge da remoto"
+  online_location: ""
+  online_location_title: ""
+  online_location_info: ""
 
   # menu and general params
   menu_buy_tickets_label: "Partecipa"
@@ -57,9 +57,10 @@ conference:
   # "general information" ("what is it?") component
   geninfo_visible: true
   geninfo_title: "Che cos'è?"
-  geninfo_description: "IDI Incontro DevOps Italia 2022 è la 10° edizione della conferenza italiana dedicata alle tematiche DevOps.
-    </br> <br /> Parleremo di DevOps, Continuous Delivery, Cloud, Microservices, Automation, Testing, Big Data, Containers, Data Center Operating Systems, Software Operability.
-    </br> <br /> La conferenza si svolge in modalità <b>ibrida</b>: in presenza e online."
+  geninfo_description: "IDI Incontro DevOps Italia 2022 è la <b>10° edizione della conferenza italiana dedicata alle tematiche DevOps.</b>
+    </br> <br /> Parleremo di DevOps, Continuous Delivery, Cloud, Microservices, Automation, Testing, Big Data, Containers, Data Center Operating Systems, Software Operability... e molto altro.
+    </br> <br /> La conferenza ha <a href='https://2022.incontrodevops.it/talks_speakers/'>due track parallele</a> e si svolge Venerdì 18 Marzo in modalità <b>ibrida: in presenza a Bologna, e online</b>.
+    </br> <br /> Il giorno prima, Giovedì 17 Marzo, nella stessa location a Bologna, si svolgono <a href='https://2022.incontrodevops.it/workshop/'>due workshop</a> (i biglietti sono in vendita separatamente)."
   geninfo_about_label: "About"
   geninfo_coc_label: "Codice di condotta"
   geninfo_scholarships_label: "Scholarships"
