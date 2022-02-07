@@ -126,6 +126,15 @@ speaker_15: &andreavivaldi
   speaker_bio: "Automation, IaC & DevOps enthusiast. Telemetry & Observability true believer. Cloud Native motivator. Open Source addicted"
   speaker_github_url: "https://github.com/andreavivaldi"
   speaker_twitter_url: "https://twitter.com/andreavivaldi"
+speaker_16: &jacoponardiello
+  speaker_in_speaker_lists: true
+  speaker_name: Jacopo Nardiello
+  speaker_pic_filename: jacopo-nardiello.png
+  speaker_role: "Founder & CEO @ SIGHUP"
+  speaker_bio: "Jacopo Nardiello è un DevOps Engineer appassionato di automazione delle infrastrutture, orchestrazione e sistemi distribuiti.
+Focalizzato sull’architettura e l’ingegneria di sistemi distribuiti basati su Containers e Kubernetes, nel 2016 ha fondato SIGHUP.
+Jacopo è anche CNCF Ambassador e Core Organizer della community milanese Kubernetes e Cloud-Native Milano Meetup."
+  speaker_twitter_url: "https://twitter.com/jnardiello"
 
 # per pubblicare speaker in home
 
@@ -140,11 +149,12 @@ speakers:
   speaker_8: *alessandrofranceschi
   speaker_9: *federicofregosi
   speaker_10: *marcolevrero
-  speaker_11: *federicopaolinelli
-  speaker_12: *massimoreferre
-  speaker_13: *matthieurobin
-  speaker_14: *gabrielesantomaggio
-  speaker_15: *andreavivaldi
+  speaker_11: *jacoponardiello
+  speaker_12: *federicopaolinelli
+  speaker_13: *massimoreferre
+  speaker_14: *matthieurobin
+  speaker_15: *gabrielesantomaggio
+  speaker_16: *andreavivaldi
 
 tracks:
   track_1: &track_1
@@ -377,3 +387,4 @@ days:
         speakers:
           speaker_1: *carlodaffara
           speaker_2: *massimoreferre
+          speaker_3: *jacoponardiello
