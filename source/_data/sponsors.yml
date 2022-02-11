@@ -16,19 +16,27 @@ platinum:
     site_url: "http://www.biodec.it/?utm_source=idi2022"
   sponsor2:
     name: "Blue Reply"
-    logo_filename: "bluereply.png"
+    logo_filename: "bluereply.svg"
     site_url: "https://www.reply.com/blue-reply/"
   sponsor3:
     name: "vistatech"
-    logo_filename: "vistatechnology.png"
+    logo_filename: "vistatechnology.svg"
     site_url: "https://www.vistatech.it/"
 gold:
   sponsor1:
+    name: "Mia Platform"
+    logo_filename: "miaplatform.svg"
+    site_url: "https://www.mia-platform.eu/it/"
+  sponsor2:
     name: "workwave"
     logo_filename: "workwave.svg"
     site_url: "https://www.workwave.com/"
 silver:
   sponsor1:
+    name: "Facile.it"
+    logo_filename: "facile.svg"
+    site_url: "https://www.facile.it/"
+  sponsor2:
     name: "madisoft"
     logo_filename: "madisoft.svg"
     site_url: "https://labs.madisoft.it/"

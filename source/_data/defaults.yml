@@ -26,7 +26,7 @@ conference:
   title_pre: ""
   title: "Incontro DevOps Italia 2022"
   city: "Bologna"
-  date: 2022-03-18T10:00+01:00
+  date: 2022-03-18T09:00+01:00
   # Use the next field to override the date in the hero
   hero_date_text:
   countdown_visible: true
