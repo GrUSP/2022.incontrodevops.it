@@ -174,64 +174,103 @@ tracks:
 
 days:
   day_1:
-    date: 2022-03-18T09:00+1:00
+    date: 2022-03-18T09:00+01:00
     title: "Day 1"
     talks:
     # service
       opening:
         item_type: "service"
-        start_datetime:
-        end_datetime:
+        start_datetime: 2022-03-18T09:30+01:00
+        end_datetime: 2022-03-18T09:45+01:00
         talk_title: "Welcome from GrUSP"
       closing:
         item_type: "service"
-        start_datetime:
-        end_datetime:
+        start_datetime: 2022-03-18T18:00+01:00
+        end_datetime: 2022-03-18T18:15+01:00
         talk_title: "Saluti dal GrUSP"
       coffee-morning:
         item_type: "service"
-        start_datetime:
-        end_datetime:
+        start_datetime: 2022-03-18T11:10+01:00
+        end_datetime: 2022-03-18T11:30+01:00
         talk_title: "Coffee break"
         service_icon: "coffee"
       coffee-afternoon:
         item_type: "service"
-        start_datetime:
-        end_datetime:
+        start_datetime: 2022-03-18T16:15+01:00
+        end_datetime: 2022-03-18T16:30+01:00
         talk_title: "Coffee break"
         service_icon: "coffee"
       lunch:
         item_type: "service"
-        start_datetime:
-        end_datetime:
+        start_datetime: 2022-03-18T13:00+01:00
+        end_datetime: 2022-03-18T14:15+01:00
         talk_title: "Pausa pranzo"
         service_icon: "cutlery"
+
     # talks
-      talk_1:
+
+      IT-economics-keynote:
         item_type: "talk"
         track: *track_1
-        start_datetime:
-        end_datetime:
+        start_datetime: 2022-03-18T09:45+01:00
+        end_datetime: 2022-03-18T10:30+01:00
+        talk_title: "IT economics: open source, cloud, business"
+        talk_description: "Quanto vale l'open source? Esistono modelli di business compatibili, e cosa cambia con il cloud?
+        L'economia dell'IT studia come utenti, aziende, il cloud interagiscono a volte in modo inaspettato, creando aziende da decine di miliardi di dollari e progetti critici come log4j portati avanti da volontari.
+        In questa sessione verranno presentati alcuni spunti di riflessione per capire come l'IT sia cambiato, e cosa sia rimasto uguale, in modo da aiutare a comprendere l'evoluzione attesa di tutto il mercato del software."
+        speakers:
+          speaker_1: *carlodaffara
+
+      devops-roi:
+        item_type: "talk"
+        track: *track_1
+        start_datetime: 2022-03-18T10:30+01:00
+        end_datetime: 2022-03-18T11:10+01:00
+        talk_title: "What is the ROI of the DevOps implementation?"
+        talk_description: "DevOps is a very good BuzzWord. Install Kubernetes, making Docker, implement CI/CD... Well. But what is the ROI of the DevOps implementation in a company?"
+        speakers:
+          speaker_1: *matthieurobin
+
+      vendor-due-diligence:
+        item_type: "talk"
+        track: *track_2
+        start_datetime: 2022-03-18T10:30+01:00
+        end_datetime: 2022-03-18T11:10+01:00
+        talk_title: "Come utilizzare 'Vendor Due Diligence/Exit Prep' per massimizzare la valutazione economica della tua azienda tech"
+        talk_description: "La necessità di includere una revisione di IT durante la Due Diligence nei processi di fusione ed acquisizione delle aziende sta diventando sempre più forte, da entrambi i lati di una transazione. Venture Capital/aziende PE, dal lato di acquisto 'buy', vogliono massimizzare il valore dei loro investimenti. Aziende tech, dal lato di vendita 'sell', cercano di massimizzare la loro valutazione economica.
+        Dirigenti d'azienda e tech lead nelle start-up, però, di solito partecipano solo ad un paio di transazioni in tutta la loro carriera e non sono pronti per la complessità di questo processo. Questo talk cerca di dargli una mano: inizieremo con un’analisi completa del processo di Due Diligence tecnica per aziende tech; dal primo contatto al contratto finale di acquisto.
+        Faremo un’analisi attenta di ciascun angolo: strategia tecnica, architettura di sistema, il prodotto, il team, i processi aziendali e la governance. Poi, vedremo la logica per queste scelte, le domande più comuni durante una transazione, e i documenti da presentare.
+        Definiremo le migliori strategie per massimizzare il valore di un’azienda e minimizzare la durata del processo di DD.
+        Nell’ultima sezione, faremo delle 'prove' per identificare i problemi più comuni prima di iniziare un round di investimento."
+        speakers:
+          speaker_1: *federicofregosi
+
+      devops-evoluzione:
+        item_type: "talk"
+        track: *track_1
+        start_datetime: 2022-03-18T11:30+01:00
+        end_datetime: 2022-03-18T12:15+01:00
+        talk_title: "DevOps. Evoluzione della specie."
+        talk_description: "Una revisione dalle origini al presente, dal presente alle prospettive future, sul movimento che ha rivoluzionato il modo di fare IT.
+        Si parlerà delle evoluzioni di cultura, persone, strumenti e processi, e, forse, anche di titoli di lavoro. Come eravamo, cosa siamo diventati, come potremmo divenire."
+        speakers:
+          speaker_1: *alessandrofranceschi
+
+      controllare-internet:
+        item_type: "talk"
+        track: *track_1
+        start_datetime: 2022-03-18T12:15+01:00
+        end_datetime: 2022-03-18T13:00+01:00
         talk_title: "Tutti i modi di controllare Internet e altri ancora"
         talk_description: "In giro per il mondo, tutti vogliono controllare Internet. Governi autoritari, governi democratici, mega-aziende big tech, operatori di telecomunicazioni, sono tutti impegnati a mettere in atto strumenti tecnici di vario genere per tracciare, esaminare e bloccare il nostro traffico Internet; quando ci riescono, usano questa capacità di controllo per accumulare e preservare potere sugli utenti finali e forzare gli altri attori a piegarsi ai loro interessi economici e politici. Spesso, questi interventi vengono giustificati con la necessità di rendere la rete più sicura per noi, ma questo non è sempre vero, e spesso non è comunque il vero motivo di fondo. Il talk presenterà una carrellata di modi e strumenti in cui i vari attori creano punti di controllo della rete, con esempi tratti dal mondo reale, per giungere a una triste conclusione: su Internet, non puoi davvero fidarti di nessuno."
         speakers:
           speaker_1: *vittoriobertola
-      talk_2:
+
+      secure-pipelines:
         item_type: "talk"
-        track: *track_1
-        start_datetime:
-        end_datetime:
-        talk_title: "Custom seccomp profiles with Inspektor Gadget"
-        talk_description: "Using a custom seccomp profile is one of the most recommended ways to increase the security of our Kubernetes workload. However, to be able to do that, we need to know all the system calls that our application uses during its whole life cycle, which is not a simple task.
-        By default, Kubernetes asks the container runtime to create a container using the `Unconfined` seccomp profile, meaning that seccomp is disabled. Such default behavior ensures that our application will run without problems, but it leaves the containers exposed to remote code execution vulnerabilities.
-        During this talk, I will show how to use <a href='https://github.com/kinvolk/inspektor-gadget'>Inspektor Gadget</a>, an eBPF-powered open-source project from the Kinvolk team at Microsoft, to identify all the system calls used by an application and how to generate a custom seccomp profile that ensures it will continue working as intended and with the exact system calls it requires."
-        speakers:
-          speaker_1: *joseblanquicet
-      talk_3:
-        item_type: "talk"
-        track: *track_1
-        start_datetime:
-        end_datetime:
+        track: *track_2
+        start_datetime: 2022-03-18T11:30+01:00
+        end_datetime: 2022-03-18T12:15+01:00
         talk_title: "Don’t break your pasta! Good practices on how to secure your pipelines"
         talk_description: "Running your pipelines with passwords or tokens everywhere is like breaking your pasta, and good Italians don’t do it.
         When building CI/CD pipelines, they usually require one or more credentials to access other systems. This leads to credentials being spread across multiple environments or repos, to be used by your pipelines. This could become a concern as the number of repos increases.
@@ -246,25 +285,12 @@ days:
         In this talk we show how is so simply to secure your pipeline, without expose credentials, token or sensitive information with a cloud agnostic approach."
         speakers:
           speaker_1: *lucabolli
-      talk_4:
+
+      SRE-jumpstart:
         item_type: "talk"
-        track: *track_1
-        start_datetime:
-        end_datetime:
-        talk_title: "Proteggere i dati con Patroni e pgbackrest"
-        talk_description: "Patroni è prodotto che fornisce high availability in maniera solida ed affidabile.
-        Pgbackrest è la scelta perfetta configurare il disaster recovery in maniera semplice ed efficace.
-        Il talk mostrerà come configurare patroni e pgbackrest con salvataggio dei backup in cloud.
-        L'esempio trattato mostrerà come eseguire il bootstrap di un nuovo cluster patroni e come configurarlo per lavorare in tandem con pgbackrest.
-        In particolare verrà mostrato come patroni insieme a pgbackrest sia grado di inizializzare nuove repliche senza la necessità della presenza del server primario.
-        L'ultima parte del talk mostrerà come eseguire un recupero totale di un cluster patroni partendo da un repository pgbackrest salvato in cloud."
-        speakers:
-          speaker_1: *federicocampoli
-      talk_5:
-        item_type: "talk"
-        track: *track_1
-        start_datetime:
-        end_datetime:
+        track: *track_2
+        start_datetime: 2022-03-18T12:15+01:00
+        end_datetime: 2022-03-18T13:00+01:00
         talk_title: "SRE Jumpstart"
         talk_description: "<ul> <li>• DevOps & SRE (come sono legate?);</li>
         <li>• SRE Principii & Terminologia;</li>
@@ -275,63 +301,32 @@ days:
         <li>• Esempi di modelli di engagement aziendali.</li></ul>"
         speakers:
           speaker_1: *riccardocarlesso
-      talk_6:
+
+      ora-esatta:
         item_type: "talk"
         track: *track_1
-        start_datetime:
-        end_datetime:
-        talk_title: "IT economics: open source, cloud, business"
-        talk_description: "Quanto vale l'open source? Esistono modelli di business compatibili, e cosa cambia con il cloud?
-        L'economia dell'IT studia come utenti, aziende, il cloud interagiscono a volte in modo inaspettato, creando aziende da decine di miliardi di dollari e progetti critici come log4j portati avanti da volontari.
-        In questa sessione verranno presentati alcuni spunti di riflessione per capire come l'IT sia cambiato, e cosa sia rimasto uguale, in modo da aiutare a comprendere l'evoluzione attesa di tutto il mercato del software."
-        speakers:
-          speaker_1: *carlodaffara
-      talk_7:
-        item_type: "talk"
-        track: *track_1
-        start_datetime:
-        end_datetime:
-        talk_title: "API-Gateway fantastici e dove trovarli"
-        talk_description: "L'API-Gateway è sicuramente uno degli elementi core delle nostre applicazioni: tiene le redini di tutti i servizi sottostanti, orchestrandone in sicurezza la comunicazione con l'esterno. Ma ti è mai capitato di doverne scegliere uno? Magari per costruire una nuova app, o per sostituirne un altro che non si adatta più alle nostre necessità. La CNCF ci offre un'estesa selezione di fantastici tool utili a questo scopo, con tantissime funzionalità diverse e possibili personalizzazioni che si adattano ad ogni necessità. Scegliere quello più adatto rischia però di rivelarsi complesso e dispendioso. Se hai bisogno di schiarirti le idee, in questo talk esploreremo insieme i tool CNCF più conosciuti nel panorama open source, in un confronto tra le loro più interessanti caratteristiche e funzionalità."
-        speakers:
-          speaker_1: *giorgiafiscaletti
-      talk_8:
-        item_type: "talk"
-        track: *track_1
-        start_datetime:
-        end_datetime:
-        talk_title: "DevOps. Evoluzione della specie."
-        talk_description: "Una revisione dalle origini al presente, dal presente alle prospettive future, sul movimento che ha rivoluzionato il modo di fare IT.
-        Si parlerà delle evoluzioni di cultura, persone, strumenti e processi, e, forse, anche di titoli di lavoro. Come eravamo, cosa siamo diventati, come potremmo divenire."
-        speakers:
-          speaker_1: *alessandrofranceschi
-      talk_9:
-        item_type: "talk"
-        track: *track_1
-        start_datetime:
-        end_datetime:
-        talk_title: "Come utilizzare 'Vendor Due Diligence/Exit Prep' per massimizzare la valutazione economica della tua azienda tech"
-        talk_description: "La necessità di includere una revisione di IT durante la Due Diligence nei processi di fusione ed acquisizione delle aziende sta diventando sempre più forte, da entrambi i lati di una transazione. Venture Capital/aziende PE, dal lato di acquisto 'buy', vogliono massimizzare il valore dei loro investimenti. Aziende tech, dal lato di vendita 'sell', cercano di massimizzare la loro valutazione economica.
-        Dirigenti d'azienda e tech lead nelle start-up, però, di solito partecipano solo ad un paio di transazioni in tutta la loro carriera e non sono pronti per la complessità di questo processo. Questo talk cerca di dargli una mano: inizieremo con un’analisi completa del processo di Due Diligence tecnica per aziende tech; dal primo contatto al contratto finale di acquisto.
-        Faremo un’analisi attenta di ciascun angolo: strategia tecnica, architettura di sistema, il prodotto, il team, i processi aziendali e la governance. Poi, vedremo la logica per queste scelte, le domande più comuni durante una transazione, e i documenti da presentare.
-        Definiremo le migliori strategie per massimizzare il valore di un’azienda e minimizzare la durata del processo di DD.
-        Nell’ultima sezione, faremo delle 'prove' per identificare i problemi più comuni prima di iniziare un round di investimento."
-        speakers:
-          speaker_1: *federicofregosi
-      talk_10:
-        item_type: "talk"
-        track: *track_1
-        start_datetime:
-        end_datetime:
+        start_datetime: 2022-03-18T14:15+01:00
+        end_datetime: 2022-03-18T14:55+01:00
         talk_title: "Come leggere l'ora esatta quando hai un miliardo di orologi"
         talk_description: "Sincronizzare lo stato di un sistema distribuito è un problema complesso. Il software che sviluppiamo in Permutive viene eseguito su miliardi di dispositivi ogni mese, in ogni parte del mondo. Ognuno di questi dispositivi è un nodo di un gigantesco sistema distribuito, e lo stato complessivo va mantenuto aggiornato e sincronizzato costantemente. In questa presentazione parleremo di Conflict-free Replicated Data Types, CRDT: data structures che permettono di replicare lo stato di un sistema distribuito in più nodi, in modo tale da poter effettuare modifiche in maniera indipendente e coerente grazie a solide regole matematiche. Nonostante il nome complicato, vedremo che i CRDT sono strutture relativamente semplici con proprietà elementari che consentono di realizzare software in modo più semplice, sicuro e affidabile."
         speakers:
           speaker_1: *marcolevrero
-      talk_11:
+
+      traffico-OCP:
+        item_type: "talk"
+        track: *track_2
+        start_datetime: 2022-03-18T14:15+01:00
+        end_datetime: 2022-03-18T14:55+01:00
+        talk_title: "Bilanciamento e gestione del traffico in ambienti OCP multi-cluster... tratto da una storia vera"
+        talk_description: "In questo talk analizzeremo insieme un caso di studio reale in cui ci siamo posti il problema della gestione del bilanciamento del traffico Nord-Sud-Ovest-Est (e no, non siamo gli 883...) in un ambiente multi-cluster geograficamente distribuito basato su RedHat OpenShift, con requisiti di alta affidabilità e resilienza in ambito Finance."
+        speakers:
+          speaker_1: *andreavivaldi
+
+      metallb:
         item_type: "talk"
         track: *track_1
-        start_datetime:
-        end_datetime:
+        start_datetime: 2022-03-18T14:55+01:00
+        end_datetime: 2022-03-18T15:35+01:00
         talk_title: "Load Balanced services su baremetal con MetalLB"
         talk_description: "I services di tipo load balancer sono un tool fondamentale per rendere le applicazioni accessibili dall’esterno di un cluster Kubernetes.
         Generalmente sono considerati una feature disponibile solo in ambienti di tipo 'cloud', perché presuppongono un’interazione con l’infrastruttura di rete del cloud provider.
@@ -340,47 +335,69 @@ days:
         Spiegherò come funziona, come configurarlo e quali leve sono a disposizione per sfruttare la modalità BGP e L2, e quando usare una o l’altra."
         speakers:
           speaker_1: *federicopaolinelli
-      talk_12:
+
+      api-gateway:
+        item_type: "talk"
+        track: *track_2
+        start_datetime: 2022-03-18T14:55+01:00
+        end_datetime: 2022-03-18T15:35+01:00
+        talk_title: "API-Gateway fantastici e dove trovarli"
+        talk_description: "L'API-Gateway è sicuramente uno degli elementi core delle nostre applicazioni: tiene le redini di tutti i servizi sottostanti, orchestrandone in sicurezza la comunicazione con l'esterno. Ma ti è mai capitato di doverne scegliere uno? Magari per costruire una nuova app, o per sostituirne un altro che non si adatta più alle nostre necessità. La CNCF ci offre un'estesa selezione di fantastici tool utili a questo scopo, con tantissime funzionalità diverse e possibili personalizzazioni che si adattano ad ogni necessità. Scegliere quello più adatto rischia però di rivelarsi complesso e dispendioso. Se hai bisogno di schiarirti le idee, in questo talk esploreremo insieme i tool CNCF più conosciuti nel panorama open source, in un confronto tra le loro più interessanti caratteristiche e funzionalità."
+        speakers:
+          speaker_1: *giorgiafiscaletti
+
+      containers-aws:
         item_type: "talk"
         track: *track_1
-        start_datetime:
-        end_datetime:
+        start_datetime: 2022-03-18T15:35+01:00
+        end_datetime: 2022-03-18T16:15+01:00
         talk_title: "Making sense of the '17 ways to run containers on AWS'"
         talk_description: "Customers are often overwhelmed by the richness of the AWS container offering. For some customers this may generate an analysis-paralysis. This session will provide a solid understanding, to un-opinionated customers, of the options that exist at AWS to run a containers. We will start by introducing a comparison framework that takes into account multiple dimensions such as features richness, the shared responsibility model, the pricing model, the target IT personas and many more. We will then analyse each service under these lenses. Ultimately we will aim at equipping customers with a mental model to navigate the options and select the best service(s) or technology(ies) based on the own customers’ needs and goals."
         speakers:
           speaker_1: *massimoreferre
-      talk_13:
+
+      patroni-pgbackrest:
         item_type: "talk"
-        track: *track_1
-        start_datetime:
-        end_datetime:
-        talk_title: "What is the ROI of the DevOps implementation?"
-        talk_description: "DevOps is a very good BuzzWord. Install Kubernetes, making Docker, implement CI/CD... Well. But what is the ROI of the DevOps implementation in a company?"
+        track: *track_2
+        start_datetime: 2022-03-18T15:35+01:00
+        end_datetime: 2022-03-18T16:15+01:00
+        talk_title: "Proteggere i dati con Patroni e pgbackrest"
+        talk_description: "Patroni è prodotto che fornisce high availability in maniera solida ed affidabile.
+        Pgbackrest è la scelta perfetta configurare il disaster recovery in maniera semplice ed efficace.
+        Il talk mostrerà come configurare patroni e pgbackrest con salvataggio dei backup in cloud.
+        L'esempio trattato mostrerà come eseguire il bootstrap di un nuovo cluster patroni e come configurarlo per lavorare in tandem con pgbackrest.
+        In particolare verrà mostrato come patroni insieme a pgbackrest sia grado di inizializzare nuove repliche senza la necessità della presenza del server primario.
+        L'ultima parte del talk mostrerà come eseguire un recupero totale di un cluster patroni partendo da un repository pgbackrest salvato in cloud."
         speakers:
-          speaker_1: *matthieurobin
-      talk_14:
+          speaker_1: *federicocampoli
+
+      webassembly:
         item_type: "talk"
         track: *track_1
-        start_datetime:
-        end_datetime:
+        start_datetime: 2022-03-18T16:30+01:00
+        end_datetime: 2022-03-18T17:15+01:00
         talk_title: "Envoy, filtri e WebAssembly per chiunque!"
         talk_description: "Envoy è uno dei più popolari cloud native proxy utilizzato anche ISTIO (service mesh per kubernetes). Tra le features future più interessanti c'è quella di poter creare dei filtri in WebAssembly. In questo talk vedremo in anteprima come un filtro per analizzare il traffico in ingresso."
         speakers:
           speaker_1: *gabrielesantomaggio
-      talk_15:
+
+      seccomp-profiles:
         item_type: "talk"
-        track: *track_1
-        start_datetime:
-        end_datetime:
-        talk_title: "Bilanciamento e gestione del traffico in ambienti OCP multi-cluster... tratto da una storia vera"
-        talk_description: "In questo talk analizzeremo insieme un caso di studio reale in cui ci siamo posti il problema della gestione del bilanciamento del traffico Nord-Sud-Ovest-Est (e no, non siamo gli 883...) in un ambiente multi-cluster geograficamente distribuito basato su RedHat OpenShift, con requisiti di alta affidabilità e resilienza in ambito Finance."
+        track: *track_2
+        start_datetime: 2022-03-18T16:30+01:00
+        end_datetime: 2022-03-18T17:15+01:00
+        talk_title: "Custom seccomp profiles with Inspektor Gadget"
+        talk_description: "Using a custom seccomp profile is one of the most recommended ways to increase the security of our Kubernetes workload. However, to be able to do that, we need to know all the system calls that our application uses during its whole life cycle, which is not a simple task.
+        By default, Kubernetes asks the container runtime to create a container using the `Unconfined` seccomp profile, meaning that seccomp is disabled. Such default behavior ensures that our application will run without problems, but it leaves the containers exposed to remote code execution vulnerabilities.
+        During this talk, I will show how to use <a href='https://github.com/kinvolk/inspektor-gadget'>Inspektor Gadget</a>, an eBPF-powered open-source project from the Kinvolk team at Microsoft, to identify all the system calls used by an application and how to generate a custom seccomp profile that ensures it will continue working as intended and with the exact system calls it requires."
         speakers:
-          speaker_1: *andreavivaldi
-      talk_16:
+          speaker_1: *joseblanquicet
+
+      tavola-rotonda:
         item_type: "talk"
         track: *track_1
-        start_datetime:
-        end_datetime:
+        start_datetime: 2022-03-18T17:15+01:00
+        end_datetime: 2022-03-18T18:00+01:00
         talk_title: "Cloud / On premises / Or else"
         talk_description: "Una discussione fra alcuni esperti e il pubblico, in modo informale su come un'azienda debba decidere di andare (o meno) su cloud, e di tutte
         le varianti intermedie. E quindi i pro, i contro, come valutarli e gestirli, a partire dagli aspetti economici per arrivare alle opportunità di business: una discussione aperta, senza scopi commerciali."
