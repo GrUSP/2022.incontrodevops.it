@@ -1,5 +1,5 @@
 # NB impostare a `true` per generare la pagina, a `false` per NON generarla
-generate_schedule_page: false
+generate_schedule_page: true
 schedule_under_construction_title: "Schedule under construction"
 schedule_under_construction_description: "We are still defining the schedule. Please be patient"
 
@@ -177,37 +177,12 @@ days:
     date: 2022-03-18T09:00+01:00
     title: "Day 1"
     talks:
-    # service
+
       opening:
         item_type: "service"
         start_datetime: 2022-03-18T09:30+01:00
         end_datetime: 2022-03-18T09:45+01:00
         talk_title: "Welcome from GrUSP"
-      closing:
-        item_type: "service"
-        start_datetime: 2022-03-18T18:00+01:00
-        end_datetime: 2022-03-18T18:15+01:00
-        talk_title: "Saluti dal GrUSP"
-      coffee-morning:
-        item_type: "service"
-        start_datetime: 2022-03-18T11:10+01:00
-        end_datetime: 2022-03-18T11:30+01:00
-        talk_title: "Coffee break"
-        service_icon: "coffee"
-      coffee-afternoon:
-        item_type: "service"
-        start_datetime: 2022-03-18T16:15+01:00
-        end_datetime: 2022-03-18T16:30+01:00
-        talk_title: "Coffee break"
-        service_icon: "coffee"
-      lunch:
-        item_type: "service"
-        start_datetime: 2022-03-18T13:00+01:00
-        end_datetime: 2022-03-18T14:15+01:00
-        talk_title: "Pausa pranzo"
-        service_icon: "cutlery"
-
-    # talks
 
       IT-economics-keynote:
         item_type: "talk"
@@ -245,6 +220,14 @@ days:
         speakers:
           speaker_1: *federicofregosi
 
+      coffee-morning:
+        item_type: "service"
+        start_datetime: 2022-03-18T11:10+01:00
+        end_datetime: 2022-03-18T11:30+01:00
+        talk_title: "Coffee break"
+        service_icon: "coffee"
+
+
       devops-evoluzione:
         item_type: "talk"
         track: *track_1
@@ -255,16 +238,6 @@ days:
         Si parlerà delle evoluzioni di cultura, persone, strumenti e processi, e, forse, anche di titoli di lavoro. Come eravamo, cosa siamo diventati, come potremmo divenire."
         speakers:
           speaker_1: *alessandrofranceschi
-
-      controllare-internet:
-        item_type: "talk"
-        track: *track_1
-        start_datetime: 2022-03-18T12:15+01:00
-        end_datetime: 2022-03-18T13:00+01:00
-        talk_title: "Tutti i modi di controllare Internet e altri ancora"
-        talk_description: "In giro per il mondo, tutti vogliono controllare Internet. Governi autoritari, governi democratici, mega-aziende big tech, operatori di telecomunicazioni, sono tutti impegnati a mettere in atto strumenti tecnici di vario genere per tracciare, esaminare e bloccare il nostro traffico Internet; quando ci riescono, usano questa capacità di controllo per accumulare e preservare potere sugli utenti finali e forzare gli altri attori a piegarsi ai loro interessi economici e politici. Spesso, questi interventi vengono giustificati con la necessità di rendere la rete più sicura per noi, ma questo non è sempre vero, e spesso non è comunque il vero motivo di fondo. Il talk presenterà una carrellata di modi e strumenti in cui i vari attori creano punti di controllo della rete, con esempi tratti dal mondo reale, per giungere a una triste conclusione: su Internet, non puoi davvero fidarti di nessuno."
-        speakers:
-          speaker_1: *vittoriobertola
 
       secure-pipelines:
         item_type: "talk"
@@ -286,6 +259,16 @@ days:
         speakers:
           speaker_1: *lucabolli
 
+      controllare-internet:
+        item_type: "talk"
+        track: *track_1
+        start_datetime: 2022-03-18T12:15+01:00
+        end_datetime: 2022-03-18T13:00+01:00
+        talk_title: "Tutti i modi di controllare Internet e altri ancora"
+        talk_description: "In giro per il mondo, tutti vogliono controllare Internet. Governi autoritari, governi democratici, mega-aziende big tech, operatori di telecomunicazioni, sono tutti impegnati a mettere in atto strumenti tecnici di vario genere per tracciare, esaminare e bloccare il nostro traffico Internet; quando ci riescono, usano questa capacità di controllo per accumulare e preservare potere sugli utenti finali e forzare gli altri attori a piegarsi ai loro interessi economici e politici. Spesso, questi interventi vengono giustificati con la necessità di rendere la rete più sicura per noi, ma questo non è sempre vero, e spesso non è comunque il vero motivo di fondo. Il talk presenterà una carrellata di modi e strumenti in cui i vari attori creano punti di controllo della rete, con esempi tratti dal mondo reale, per giungere a una triste conclusione: su Internet, non puoi davvero fidarti di nessuno."
+        speakers:
+          speaker_1: *vittoriobertola
+
       SRE-jumpstart:
         item_type: "talk"
         track: *track_2
@@ -301,6 +284,13 @@ days:
         <li>• Esempi di modelli di engagement aziendali.</li></ul>"
         speakers:
           speaker_1: *riccardocarlesso
+
+      lunch:
+        item_type: "service"
+        start_datetime: 2022-03-18T13:00+01:00
+        end_datetime: 2022-03-18T14:15+01:00
+        talk_title: "Pausa pranzo"
+        service_icon: "cutlery"
 
       ora-esatta:
         item_type: "talk"
@@ -371,6 +361,13 @@ days:
         speakers:
           speaker_1: *federicocampoli
 
+      coffee-afternoon:
+        item_type: "service"
+        start_datetime: 2022-03-18T16:15+01:00
+        end_datetime: 2022-03-18T16:30+01:00
+        talk_title: "Coffee break"
+        service_icon: "coffee"
+
       webassembly:
         item_type: "talk"
         track: *track_1
@@ -405,3 +402,9 @@ days:
           speaker_1: *carlodaffara
           speaker_2: *massimoreferre
           speaker_3: *jacoponardiello
+
+      closing:
+        item_type: "service"
+        start_datetime: 2022-03-18T18:00+01:00
+        end_datetime: 2022-03-18T18:15+01:00
+        talk_title: "Saluti dal GrUSP"
