@@ -28,10 +28,14 @@ platinum:
     site_url: "https://tanzu.vmware.com/"
 gold:
   sponsor1:
+    name: "HashiCorp"
+    logo_filename: "hashicorp.svg"
+    site_url: "https://www.hashicorp.com/"
+  sponsor2:
     name: "Mia Platform"
     logo_filename: "miaplatform.svg"
     site_url: "https://www.mia-platform.eu/it/"
-  sponsor2:
+  sponsor3:
     name: "workwave"
     logo_filename: "workwave.svg"
     site_url: "https://www.workwave.com/"
@@ -50,6 +54,10 @@ bronze:
     logo_filename: "aws.svg"
     site_url: "https://aws.amazon.com/it/"
   sponsor2:
+    name: "Hidora"
+    logo_filename: "hidora.svg"
+    site_url: "https://hidora.io"
+  sponsor3:
     name: "stickermule"
     logo_filename: "stickermule.svg"
     site_url: "https://mule.to/p2gc"
