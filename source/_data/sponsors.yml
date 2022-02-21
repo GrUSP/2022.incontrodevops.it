@@ -36,6 +36,10 @@ gold:
     logo_filename: "miaplatform.svg"
     site_url: "https://www.mia-platform.eu/it/"
   sponsor3:
+    name: "Microsoft"
+    logo_filename: "microsoft.png"
+    site_url: "https://docs.microsoft.com/it-it/learn/"
+  sponsor4:
     name: "workwave"
     logo_filename: "workwave.svg"
     site_url: "https://www.workwave.com/"
