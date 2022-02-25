@@ -19,10 +19,14 @@ platinum:
     logo_filename: "bluereply.svg"
     site_url: "https://www.reply.com/blue-reply/"
   sponsor3:
+    name: "iungo"
+    logo_filename: "iungo.png"
+    site_url: "https://www.iungo.com/"
+  sponsor4:
     name: "Vista Technology"
     logo_filename: "vistatechnology.svg"
     site_url: "https://www.vistatech.it/"
-  sponsor4:
+  sponsor5:
     name: "VMware Tanzu"
     logo_filename: "vmware-tanzu.svg"
     site_url: "https://tanzu.vmware.com/"
