@@ -66,10 +66,14 @@ bronze:
     logo_filename: "hidora.svg"
     site_url: "https://hidora.io"
   sponsor3:
+    name: "Permutive"
+    logo_filename: "permutive.png"
+    site_url: "https://permutive.com"
+  sponsor4:
     name: "SparkFabrik"
     logo_filename: "sparkfabrik.png"
     site_url: "https://www.sparkfabrik.com/it/"
-  sponsor4:
+  sponsor5:
     name: "stickermule"
     logo_filename: "stickermule.svg"
     site_url: "https://mule.to/p2gc"
