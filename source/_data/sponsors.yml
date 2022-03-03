@@ -23,10 +23,14 @@ platinum:
     logo_filename: "iungo.png"
     site_url: "https://www.iungo.com/"
   sponsor4:
+    name: "MSC Technology"
+    logo_filename: "MSC.svg"
+    site_url: "https://www.msc.com/tech-italy"
+  sponsor5:
     name: "Vista Technology"
     logo_filename: "vistatechnology.svg"
     site_url: "https://www.vistatech.it/"
-  sponsor5:
+  sponsor6:
     name: "VMware Tanzu"
     logo_filename: "vmware-tanzu.svg"
     site_url: "https://tanzu.vmware.com/"
@@ -49,10 +53,14 @@ gold:
     site_url: "https://www.workwave.com/"
 silver:
   sponsor1:
+    name: "ABLS Team"
+    logo_filename: "abls.svg"
+    site_url: "http://www.abls.it/"
+  sponsor2:
     name: "Facile.it"
     logo_filename: "facile.svg"
     site_url: "https://www.facile.it/"
-  sponsor2:
+  sponsor3:
     name: "madisoft"
     logo_filename: "madisoft.svg"
     site_url: "https://labs.madisoft.it/"
@@ -62,18 +70,26 @@ bronze:
     logo_filename: "aws.svg"
     site_url: "https://aws.amazon.com/it/"
   sponsor2:
+    name: "Google Cloud"
+    logo_filename: "google-cloud.svg"
+    site_url: "https://cloud.google.com/"
+  sponsor3:
     name: "Hidora"
     logo_filename: "hidora.svg"
     site_url: "https://hidora.io"
-  sponsor3:
+  sponsor4:
+    name: "Innoteam"
+    logo_filename: "innoteam.svg"
+    site_url: "https://www.innoteam.it/"
+  sponsor5:
     name: "Permutive"
     logo_filename: "permutive.png"
     site_url: "https://permutive.com"
-  sponsor4:
+  sponsor6:
     name: "SparkFabrik"
     logo_filename: "sparkfabrik.png"
     site_url: "https://www.sparkfabrik.com/it/"
-  sponsor5:
+  sponsor7:
     name: "stickermule"
     logo_filename: "stickermule.svg"
     site_url: "https://mule.to/p2gc"
