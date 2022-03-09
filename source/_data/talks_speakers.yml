@@ -202,7 +202,7 @@ days:
         start_datetime: 2022-03-18T10:30+01:00
         end_datetime: 2022-03-18T11:10+01:00
         talk_title: "What is the ROI of the DevOps implementation?"
-        talk_description: "DevOps is a very good BuzzWord. Install Kubernetes, making Docker, implement CI/CD... Well. But what is the ROI of the DevOps implementation in a company?"
+        talk_description: "[Talk in English language] DevOps is a very good BuzzWord. Install Kubernetes, making Docker, implement CI/CD... Well. But what is the ROI of the DevOps implementation in a company?"
         speakers:
           speaker_1: *matthieurobin
 
@@ -384,7 +384,7 @@ days:
         start_datetime: 2022-03-18T16:30+01:00
         end_datetime: 2022-03-18T17:15+01:00
         talk_title: "Custom seccomp profiles with Inspektor Gadget"
-        talk_description: "Using a custom seccomp profile is one of the most recommended ways to increase the security of our Kubernetes workload. However, to be able to do that, we need to know all the system calls that our application uses during its whole life cycle, which is not a simple task.
+        talk_description: "[Talk in English language] Using a custom seccomp profile is one of the most recommended ways to increase the security of our Kubernetes workload. However, to be able to do that, we need to know all the system calls that our application uses during its whole life cycle, which is not a simple task.
         By default, Kubernetes asks the container runtime to create a container using the `Unconfined` seccomp profile, meaning that seccomp is disabled. Such default behavior ensures that our application will run without problems, but it leaves the containers exposed to remote code execution vulnerabilities.
         During this talk, I will show how to use <a href='https://github.com/kinvolk/inspektor-gadget'>Inspektor Gadget</a>, an eBPF-powered open-source project from the Kinvolk team at Microsoft, to identify all the system calls used by an application and how to generate a custom seccomp profile that ensures it will continue working as intended and with the exact system calls it requires."
         speakers:

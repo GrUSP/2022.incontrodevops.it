@@ -61,6 +61,10 @@ silver:
     logo_filename: "facile.svg"
     site_url: "https://www.facile.it/"
   sponsor3:
+    name: "LPI"
+    logo_filename: "lpi.png"
+    site_url: "https://www.lpi.org/"
+  sponsor4:
     name: "madisoft"
     logo_filename: "madisoft.svg"
     site_url: "https://labs.madisoft.it/"
