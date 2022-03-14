@@ -177,13 +177,16 @@ days:
     date: 2022-03-18T09:00+01:00
     title: "Day 1"
     talks:
-
+      checkin:
+        item_type: "service"
+        start_datetime: 2022-03-18T09:00+01:00
+        end_datetime: 2022-03-18T09:30+01:00
+        talk_title: "Check-in"
       opening:
         item_type: "service"
         start_datetime: 2022-03-18T09:30+01:00
         end_datetime: 2022-03-18T09:45+01:00
         talk_title: "Welcome from GrUSP"
-
       IT-economics-keynote:
         item_type: "talk"
         track: *track_1
