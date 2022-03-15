@@ -354,13 +354,13 @@ days:
         track: *track_2
         start_datetime: 2022-03-18T15:35+01:00
         end_datetime: 2022-03-18T16:15+01:00
-        talk_title: "Proteggere i dati con Patroni e pgbackrest"
-        talk_description: "Patroni è prodotto che fornisce high availability in maniera solida ed affidabile.
-        Pgbackrest è la scelta perfetta configurare il disaster recovery in maniera semplice ed efficace.
-        Il talk mostrerà come configurare patroni e pgbackrest con salvataggio dei backup in cloud.
-        L'esempio trattato mostrerà come eseguire il bootstrap di un nuovo cluster patroni e come configurarlo per lavorare in tandem con pgbackrest.
-        In particolare verrà mostrato come patroni insieme a pgbackrest sia grado di inizializzare nuove repliche senza la necessità della presenza del server primario.
-        L'ultima parte del talk mostrerà come eseguire un recupero totale di un cluster patroni partendo da un repository pgbackrest salvato in cloud."
+        talk_title: "Protecting your data with Patroni and pgBackRest"
+        talk_description: "[Talk in English language] Patroni is a solid and reliable HA tool.
+        Pgbackrest is the perfect choice to have a proper DR solution in place.
+        The talk will walk the audience through the configuration of patroni coupled with pgBackrRest.
+        It will be shown how to bootstrap a new patroni cluster by using an existing pgBackrRest repository and how to use patroni
+        patroni to create and initialize new replicas without the need of a running primary.
+        The talk will also explain how to perform a disaster recovery by using a pgBackrRest repository saved in cloud."
         speakers:
           speaker_1: *federicocampoli
 
@@ -387,7 +387,7 @@ days:
         start_datetime: 2022-03-18T16:30+01:00
         end_datetime: 2022-03-18T17:15+01:00
         talk_title: "Custom seccomp profiles with Inspektor Gadget"
-        talk_description: "[Talk in English language] Using a custom seccomp profile is one of the most recommended ways to increase the security of our Kubernetes workload. However, to be able to do that, we need to know all the system calls that our application uses during its whole life cycle, which is not a simple task.
+        talk_description: "Using a custom seccomp profile is one of the most recommended ways to increase the security of our Kubernetes workload. However, to be able to do that, we need to know all the system calls that our application uses during its whole life cycle, which is not a simple task.
         By default, Kubernetes asks the container runtime to create a container using the `Unconfined` seccomp profile, meaning that seccomp is disabled. Such default behavior ensures that our application will run without problems, but it leaves the containers exposed to remote code execution vulnerabilities.
         During this talk, I will show how to use <a href='https://github.com/kinvolk/inspektor-gadget'>Inspektor Gadget</a>, an eBPF-powered open-source project from the Kinvolk team at Microsoft, to identify all the system calls used by an application and how to generate a custom seccomp profile that ensures it will continue working as intended and with the exact system calls it requires."
         speakers:
